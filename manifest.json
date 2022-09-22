@@ -1,0 +1,20 @@
+{
+  "name": "Ubbi Dubbi",
+  "description": "Translate web pages into Ubbi Dubbi",
+  "version": "1.0",
+  "manifest_version": 3,
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+//     "default_icon" : {
+
+//     }
+// },
+//   "icons" : {
+
+}
+}
