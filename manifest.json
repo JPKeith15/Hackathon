@@ -9,12 +9,19 @@
   },
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html"
-//     "default_icon" : {
-
-//     }
-// },
-//   "icons" : {
-
+    "default_popup": "popup.html",
+    "default_icon" : {
+      "16": "images/zoom_16.jpeg",
+      "32": "images/zoom_32.jpeg",
+      "48": "images/zoom_48.jpeg",
+      "128": "images/zoom_128.jpeg"
+  }
+},
+  "icons": {
+    "16": "/images/zoom_16.jpeg",
+    "32": "/images/zoom_32.jpeg",
+    "48": "/images/zoom_48.jpeg",
+    "128": "/images/zoom_128.jpeg"
+  }
 }
-}
+
