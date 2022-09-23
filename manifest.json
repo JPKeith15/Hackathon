@@ -9,19 +9,14 @@
   },
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon" : {
-      "16": "images/zoom16.jpeg",
-      "32": "images/zoom32.jpeg",
-      "48": "images/zoom48.jpeg",
-      "128": "images/zoom128.jpeg"
-  }
-},
+    "default_popup": "popup.html"
+    
+  },
   "icons": {
-    "16": "/images/zoom16.jpeg",
-    "32": "/images/zoom32.jpeg",
-    "48": "/images/zoom48.jpeg",
-    "128": "/images/zoom128.jpeg"
+    "16": "zoom64.png",
+    "32": "zoom64.png",
+    "48": "zoom64.png",
+    "128": "zoom64.png"
   }
 }
 
